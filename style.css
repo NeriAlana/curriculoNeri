@@ -1,0 +1,132 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231011/pngtree-texture-background-crumpled-paper-with-folds-and-creases-image_13612751.png'); /*img */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    color: #444444;
+    line-height: 1.6;
+    padding: 20px;
+    position: relative; /* Adiciona um contexto de posicionamento */
+}
+
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7); /* Fundo branco com opacidade */
+    z-index: -1; /* Coloca o fundo abaixo do conteúdo */
+}
+.principal{
+    background-color: rgba(190, 185, 185, 0.5);
+    width: 70%; /* Largura. */
+    height: 70%; /* Altura. */
+    margin: 0 auto; /* Centralizando horizontalmente o corpo. */
+    margin-bottom: 10px;
+    padding: 20px; /*  espaçamento interno. */
+    border-radius: 10px; /* Arredondando os cantos. */
+}
+
+.informação{
+    text-align: center; /* Alinha o texto ao centro. */
+    margin-top: 20px;  /* espaçamento entre o conteúdo exibido no botão e o h1. */
+    font-size: 18px; /* Tamanho da fonte. */
+}
+
+
+h1, h2 {
+    color: #4CAF50; /* Cor verde para títulos */
+}
+
+p {
+    margin: 10px 0; /* Margem superior e inferior de cada parágrafo */
+}
+
+/* cabeçalho - título principal */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 2.5em; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Margem inferior entre o cabeçalho e o botão */
+}
+
+/* subtítulo */
+h2 {
+    font-size: 1.8em; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaçamento da margem do h2 e do elemento anterior */
+    border-bottom: 2px solid #4CAF50; /* Borda inferior para h2 */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.1em; /* Tamanho da fonte */
+    color: #474646; /* Cor da fonte */
+}
+
+/* botão */
+.button-container {
+    text-align: center; /* Centraliza o botão */
+    margin: 20px 0; /* Margem acima e abaixo do botão */
+}
+
+button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor da fonte do botão */
+    padding: 10px; /* Tamanho do botão e espaçamento nas laterais */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Deixa a borda arredondada */
+    cursor: pointer; /* Transforma o cursor do mouse */
+    font-size: 1em; /* Tamanho da fonte */
+}
+
+button:hover {
+    background-color: #45a049; /* Muda a cor quando o mouse passar no botão */
+}
+
+/* estiliza o id */
+#info {
+    margin: 20px 0; /* Margem acima e abaixo do botão */
+    font-size: 1.2em;
+    color: #444;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #e0dada;
+    padding: 10px;
+    
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) { /* Será aplicado quando o tamanho da tela for 768 ou menor */
+    body {
+        padding: 10px; /* Define espaçamento ao redor do conteúdo */
+    }
+
+    h1 {
+        font-size: 2em; /* Reduz o tamanho da fonte de h1 */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Reduz o tamanho da fonte de h2 */
+    }
+
+    p {
+        font-size: 1em; /* Reduz o tamanho da fonte de p */
+    }
+
+    button {
+        font-size: 0.9em; /* Reduz o tamanho da fonte do botão */
+        padding: 8px 16px; /* Define o preenchimento interno do botão */
+    }
+}
