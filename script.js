@@ -1,7 +1,7 @@
 
    
       let email = "alananeridev@gmail.com";
-      let idade = "32 anos";
+      let idade = "33 anos";
       let endereco = "Travessa do Brejinho, nº 11 E, Ilha Amarela, Salvador-BA";
       let contato = "(71) 98258-8652  | (71) 99130-8969"
 
