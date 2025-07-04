@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231011/pngtree-texture-background-crumpled-paper-with-folds-and-creases-image_13612751.png'); /*img */
+    background-image: url('./image/fundo.jpg'); /*img */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Não repete a imagem */
